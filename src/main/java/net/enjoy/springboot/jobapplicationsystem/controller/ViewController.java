@@ -18,7 +18,10 @@ public class ViewController {
         UserDto user = new UserDto();
         model.addAttribute("user", user);
         return "register";
-    }
+
+
+
+ m    }
 
     @GetMapping("/login")
     public String login() {
